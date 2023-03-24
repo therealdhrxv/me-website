@@ -4,5 +4,10 @@
 
 
 body {
-    @apply bg-black
+    @apply 
+    bg-gradient-to-l 
+    from-blue-400 
+    to-orange-500 
+    via-purple-500
+    animate-gradient-xy
 }
