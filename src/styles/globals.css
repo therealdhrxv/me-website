@@ -5,9 +5,11 @@
 
 body {
     @apply 
+    /* This is for the gradient */
     bg-gradient-to-l 
     from-blue-400 
     to-orange-500 
     via-purple-500
     animate-gradient-xy
 }
+
