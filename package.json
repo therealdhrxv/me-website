@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^6.0.5",
     "next": "13.2.4",
+    "next-seo": "^6.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
