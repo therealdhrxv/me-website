@@ -1,4 +1,10 @@
 import Head from "next/head";
+import { MantineProvider } from "@mantine/core";
+import { ToastContainer } from "react-toastify";
+import { NextSeo } from "next-seo";
+import "react-toastify/dist/ReactToastify.css";
+import "../styles/globals.css";
+
 
 export default function App(props) {
   const { Component, pageProps } = props;
