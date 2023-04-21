@@ -1,6 +1,7 @@
 import { NextSeo } from "next-seo";
 import { MantineProvider } from "@mantine/core";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from '@vercel/analytics/react';
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/globals.css";
 
