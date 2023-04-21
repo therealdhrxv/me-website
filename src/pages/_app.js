@@ -19,6 +19,7 @@ export default function App(props) {
         theme={{ colorScheme: "light" }}
       >
         <Component {...pageProps} />
+        <Analytics />
         <ToastContainer />
       </MantineProvider>
     </>
