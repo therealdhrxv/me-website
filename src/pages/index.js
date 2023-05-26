@@ -28,26 +28,34 @@ export default function Home() {
         }}
       />
       <header>
-        <h1 className="text-[45px] md:text-8xl font-extrabold text-center leading-snug flex justify-center mt-[250px] md:mt-60">
+        <h1 className="text-[45px] md:text-7xl font-extrabold text-center leading-snug flex justify-center mt-[250px] md:mt-[5%]">
           👋 Hi!, I am Dhruv
         </h1>
       </header>
-      <main>
-        <nav className="flex mt-11 md:mt-28 justify-evenly">
+
+      <div className="font-mono md:mt-[7%] md:w-[50%] md:ml-[25%] text-xl leading-9">
+        I am a student of the 2021 batch of Information Technology at the Vellore Institute of Technology, Vellore. I primarily write programs using JavaScript and Java though I have experimented with other languages such as Python, TypeScript, Assembly (x86_64), R and C/C++. <br /> <br />
+
+        My hobbies include playing chess, and binging too many videos on YouTube. I am currently learning about the various frontend technologies and it's integration with the backend.
+      </div>
+
+      <div className="mt-[8%] w-[30%] md:ml-[35%]">
+        <div className="flex justify-evenly md:mt-4">
           <a href="https://github.com/therealdhruv" aria-label="Visit Dhruv's GitHub profile">
-            <img src={"/socialImages/g.svg"} className="w-14 md:w-20 md:h-20" alt="GitHub logo" />
+            <img src={"/assets/g.svg"} className="w-14 md:w-15 md:h-20" alt="GitHub logo" />
           </a>
           <a href="https://linkedin.com/in/therealdhruv" aria-label="Visit Dhruv's LinkedIn profile">
-            <img src={"/socialImages/i.svg"} className="w-14 md:w-20 md:h-20" alt="LinkedIn logo" />
+            <img src={"/assets/i.svg"} className="w-14 md:w-15 md:h-20" alt="LinkedIn logo" />
           </a>
           <a href="https://twitter.com/thereal_dhruv" aria-label="Visit Dhruv's Twitter profile">
-            <img src={"/socialImages/t.svg"} className="w-14 md:w-20 md:h-20" alt="Twitter logo" />
+            <img src={"/assets/t.svg"} className="w-14 md:w-15 md:h-20" alt="Twitter logo" />
           </a>
           <a href="https://instagram.com/thereal_dhruv" aria-label="Visit Dhruv's Instagram profile">
-            <img src={"/socialImages/insta.svg"} className="w-14 md:w-20 md:h-20" alt="Instagram logo" />
+            <img src={"/assets/insta.svg"} className="w-14 md:w-15 md:h-20" alt="Instagram logo" />
           </a>
-        </nav>
-      </main>
+        </div>
+      </div>
+
     </>
   );
 }
