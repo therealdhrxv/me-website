@@ -53,18 +53,18 @@ export default function Home() {
 
       <div className="md:mt-[8%] md:w-[30%] md:ml-[35%] mt-6 mb-12">
 
-        <div className="flex justify-evenly md:mt-4">
+        <div className="flex justify-evenly mt-14 md:space-x-20 md:mt-4">
           <a href="https://github.com/therealdhruv" aria-label="Visit Dhruv's GitHub profile">
-            <img src={"/assets/g.svg"} className="w-14 md:w-15 md:h-20" alt="GitHub logo" />
+            <img src={"/assets/github.png"} className="w-14 md:w-15 md:h-15" alt="GitHub logo" />
           </a>
           <a href="https://linkedin.com/in/therealdhruv" aria-label="Visit Dhruv's LinkedIn profile">
-            <img src={"/assets/i.svg"} className="w-14 md:w-15 md:h-20" alt="LinkedIn logo" />
+            <img src={"/assets/linkedin.png"} className="w-14 md:w-15 md:h-15" alt="LinkedIn logo" />
           </a>
           <a href="https://twitter.com/thereal_dhruv" aria-label="Visit Dhruv's Twitter profile">
-            <img src={"/assets/t.svg"} className="w-14 md:w-15 md:h-20" alt="Twitter logo" />
+            <img src={"/assets/twitter.png"} className="w-14 md:w-15 md:h-15" alt="Twitter logo" />
           </a>
           <a href="https://instagram.com/thereal_dhruv" aria-label="Visit Dhruv's Instagram profile">
-            <img src={"/assets/insta.svg"} className="w-14 md:w-15 md:h-20" alt="Instagram logo" />
+            <img src={"/assets/instagram.png"} className="w-14 md:w-15 md:h-15" alt="Instagram logo" />
           </a>
         </div>
 
