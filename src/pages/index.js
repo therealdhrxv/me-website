@@ -47,23 +47,23 @@ export default function Home() {
 
         I am a student of the 2021 batch of Information Technology at the Vellore Institute of Technology, Vellore. I primarily write programs using JavaScript and Java though I have experimented with other languages such as Python, TypeScript, Assembly (x86_64), R and C/C++. <br /> <br />
 
-        My hobbies include playing chess, and binging too many videos on YouTube. I am currently learning about the various frontend technologies and it's integration with the backend.
+        My hobbies include playing chess, and binging too many videos on YouTube. I am currently learning various frontend technologies and it's integration with the backend.
 
       </div>
 
       <div className="md:mt-[8%] md:w-[30%] md:ml-[35%] mt-6 mb-12">
 
         <div className="flex justify-evenly mt-14 md:space-x-20 md:mt-4">
-          <a href="https://github.com/therealdhruv" aria-label="Visit Dhruv's GitHub profile">
+          <a href="https://github.com/therealdhruv" aria-label="Visit Dhruv's GitHub profile" target="_blank">
             <img src={"/assets/github.png"} className="w-14 md:w-15 md:h-15" alt="GitHub logo" />
           </a>
-          <a href="https://linkedin.com/in/therealdhruv" aria-label="Visit Dhruv's LinkedIn profile">
+          <a href="https://linkedin.com/in/therealdhruv" aria-label="Visit Dhruv's LinkedIn profile" target="_blank">
             <img src={"/assets/linkedin.png"} className="w-14 md:w-15 md:h-15" alt="LinkedIn logo" />
           </a>
-          <a href="https://twitter.com/thereal_dhruv" aria-label="Visit Dhruv's Twitter profile">
+          <a href="https://twitter.com/thereal_dhruv" aria-label="Visit Dhruv's Twitter profile" target="_blank">
             <img src={"/assets/twitter.png"} className="w-14 md:w-15 md:h-15" alt="Twitter logo" />
           </a>
-          <a href="https://instagram.com/thereal_dhruv" aria-label="Visit Dhruv's Instagram profile">
+          <a href="https://instagram.com/thereal_dhruv" aria-label="Visit Dhruv's Instagram profile" target="_blank">
             <img src={"/assets/instagram.png"} className="w-14 md:w-15 md:h-15" alt="Instagram logo" />
           </a>
         </div>
