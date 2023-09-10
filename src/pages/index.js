@@ -65,9 +65,9 @@ export default function Home() {
       <div className="font-mono md:mt-[7%] md:w-[50%] md:ml-[25%] text-xl md:text-left text-left ml-4 mr-4 mt-10 leading-9">
         I am a student of the 2021 batch of Information Technology at the
         Vellore Institute of Technology, Vellore. I primarily write programs
-        using JavaScript and Java though I have experimented with other
-        languages such as Python, TypeScript, Assembly (x86_64), R and C/C++.{" "}
-        <br /> <br />
+        using JavaScript, TypeScript and Java though I have experimented with
+        other languages such as Python, Assembly (x86_64), R and C/C++. <br />{" "}
+        <br />
         My hobbies include playing chess, and binging too many videos on
         YouTube. I am currently learning various frontend technologies and it's
         integration with the backend.

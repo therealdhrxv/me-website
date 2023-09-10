@@ -1,10 +1,10 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const meta = {
-    title: 'Dhruv Pankaj Patel',
-    description: 'About me.',
-  }
+    title: "Dhruv Pankaj Patel",
+    description: "About me.",
+  };
   return (
     <Html lang="en">
       <Head>
@@ -25,5 +25,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
