@@ -57,9 +57,22 @@ export default function Home() {
       />
 
       <header>
-        <h1 className="text-[45px] md:text-7xl font-extrabold text-center leading-snug flex justify-center mt-10 md:mt-16">
-          👋 Hi!, I am Dhruv
-        </h1>
+        <div className="text-[45px] md:text-7xl font-extrabold text-center leading-snug flex justify-center mt-10 md:mt-16">
+          👋
+          <span
+            className="
+            bg-[length:300%_300%] 
+            bg-no-repeat animate-bgMove bg-clip-text text-transparent ml-7
+            bg-gradient-to-r 
+            
+            from-[#1a1dbc]
+            via-[#ff0077] 
+            to-[#ff0077]
+          "
+          >
+            Hi!, I am Dhruv
+          </span>
+        </div>
       </header>
 
       <div className="font-mono md:mt-[7%] md:w-[50%] md:ml-[25%] text-xl md:text-left text-left ml-4 mr-4 mt-10 leading-9">
