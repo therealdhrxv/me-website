@@ -62,7 +62,7 @@ export default function Home() {
           <span
             className="
             bg-[length:300%_300%] 
-            bg-no-repeat animate-bgMove bg-clip-text text-transparent ml-7
+            bg-no-repeat animate-bgMove bg-clip-text text-transparent md:ml-7 ml-3
             bg-gradient-to-r 
             
             from-[#1a1dbc]
