@@ -65,9 +65,9 @@ export default function Home() {
             bg-no-repeat animate-bgMove bg-clip-text text-transparent md:ml-7 ml-3
             bg-gradient-to-r 
             
-            from-[#1a1dbc]
-            via-[#ff0077] 
-            to-[#ff0077]
+            from-[#5bb8ff]
+            via-[#ff8fc5] 
+            to-[#5bb8ff]
           "
           >
             Hi!, I am Dhruv
