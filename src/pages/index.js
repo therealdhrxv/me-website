@@ -33,9 +33,9 @@ export default function Home() {
 			<NextSeo
 				title="Dhruv Pankaj Patel"
 				description="This is the portfolio website of Dhruv Pankaj Patel. Dhruv is a Information Technology Engineering undergraduate student at Vellore Institute of Technology, Vellore, Tamil Nadu, India."
-				canonical="https://therealdhruv.tech/"
+				canonical="https://therealdhruv.co/"
 				openGraph={{
-					url: "https://therealdhruv.tech/",
+					url: "https://therealdhruv.co/",
 					title: "Dhruv Pankaj Patel",
 					description:
 						"This is the portfolio website of Dhruv Pankaj Patel. Dhruv is a Information Technology Engineering undergraduate student at Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
