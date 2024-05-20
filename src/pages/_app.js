@@ -12,7 +12,7 @@ export default function App(props) {
       <NextSeo
         title="Dhruv Pankaj Patel"
         description="This is the portfolio website of Dhruv Pankaj Patel. Dhruv is a Information Technology Engineering undergraduate student at Vellore Institute of Technology, Vellore, Tamil Nadu, India."
-        twitter={{ handle: "@thereal_dhruv", cardType: "summary_large_image" }}
+        twitter={{ handle: "@therealdhrxv", cardType: "summary_large_image" }}
       />
       <MantineProvider
         withGlobalStyles

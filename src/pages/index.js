@@ -33,15 +33,15 @@ export default function Home() {
 			<NextSeo
 				title="Dhruv Pankaj Patel"
 				description="This is the portfolio website of Dhruv Pankaj Patel. Dhruv is a Information Technology Engineering undergraduate student at Vellore Institute of Technology, Vellore, Tamil Nadu, India."
-				canonical="https://therealdhruv.co/"
+				canonical="https://therealdhrxv.me/"
 				openGraph={{
-					url: "https://therealdhruv.co/",
+					url: "https://therealdhrxv.me/",
 					title: "Dhruv Pankaj Patel",
 					description:
 						"This is the portfolio website of Dhruv Pankaj Patel. Dhruv is a Information Technology Engineering undergraduate student at Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
 					images: [
 						{
-							url: "https://www.google.com/imgres?imgurl=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F92241443%3Fv%3D4&tbnid=Gy6fb0GoiOlMAM&vet=12ahUKEwjJkMjDq5L-AhXFF2IAHaRXCowQMygAegQIARBP..i&imgrefurl=https%3A%2F%2Fgithub.com%2Ftherealdhruv&docid=qFGwyBru2MfbsM&w=400&h=400&q=dhruv%20pankaj%20patel&ved=2ahUKEwjJkMjDq5L-AhXFF2IAHaRXCowQMygAegQIARBP",
+							url: "https://avatars.githubusercontent.com/u/92241443?v=4",
 							width: 1200,
 							height: 630,
 							alt: "Dhruv Pankaj Patel",
@@ -61,14 +61,14 @@ export default function Home() {
 					👋
 					<span
 						className="
-            bg-[length:300%_300%] 
-            bg-no-repeat animate-bgMove bg-clip-text text-transparent md:ml-7 ml-3
-            bg-gradient-to-r 
-            
-            from-[#5bb8ff]
-            via-[#ff8fc5] 
-            to-[#5bb8ff]
-          "
+							bg-[length:300%_300%] 
+							bg-no-repeat animate-bgMove bg-clip-text text-transparent md:ml-7 ml-3
+							bg-gradient-to-r 
+							
+							from-[#5bb8ff]
+							via-[#ff8fc5] 
+							to-[#5bb8ff]
+          				"
 					>
 						Hi!, I am Dhruv
 					</span>
