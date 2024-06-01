@@ -20,7 +20,7 @@ export default function Document() {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
-      <body>
+      <body style={{backgroundColor: '#D8DEE9'}}>
         <Main />
         <NextScript />
       </body>
