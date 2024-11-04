@@ -13,18 +13,18 @@ const socials = [
 		src: "/assets/linkedin.png",
 		alt: "LinkedIn logo",
 	},
-	{
-		href: "https://twitter.com/therealdhrxv",
-		ariaLabel: "Visit Dhruv's Twitter profile",
-		src: "/assets/twitter.png",
-		alt: "Twitter logo",
-	},
-	{
-		href: "https://instagram.com/therealdhrxv",
-		ariaLabel: "Visit Dhruv's Instagram profile",
-		src: "/assets/instagram.png",
-		alt: "Instagram logo",
-	},
+	// {
+	// 	href: "https://twitter.com/therealdhrxv",
+	// 	ariaLabel: "Visit Dhruv's Twitter profile",
+	// 	src: "/assets/twitter.png",
+	// 	alt: "Twitter logo",
+	// },
+	// {
+	// 	href: "https://instagram.com/therealdhrxv",
+	// 	ariaLabel: "Visit Dhruv's Instagram profile",
+	// 	src: "/assets/instagram.png",
+	// 	alt: "Instagram logo",
+	// },
 ];
 
 export default function Home() {
@@ -86,7 +86,7 @@ export default function Home() {
 					products that people love.
 				</div>
 
-				<div className="md:mt-[8%] md:w-[60%] md:ml-[19%] mb-12 flex justify-evenly mt-14 md:space-x-20">
+				<div className="md:mt-[8%] md:w-[60%] md:ml-[19%] mb-12 flex justify-evenly mt-14">
 					{socials.map((link, index) => (
 						<a
 							href={link.href}
